@@ -1,6 +1,14 @@
 # poker_hand_statistics
 
-To run the simulator use on teh command line use: **python3 deal_and_test.py**
+**I do realize the names are slightly too similar but these were the required names when I wrote this for a class**
+
+**1.** card_tests.py contains the tests for determining the current hand.
+
+**2.** deal_and_test.py contains the main logic for running the total number of hands, input by the user, and calculating the overall final statistical output.
+
+**3.** test_for_card_tests.py has 27 tests written in python unittest framework to test the logic of the simulator files.
+
+To run the simulator use on the command line use: **python3 deal_and_test.py**
 
 Run any number of poker hands (tested up to 100 million hands) and get back the statistical breakdown and what poker hands were distributed
 
